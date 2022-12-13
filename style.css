@@ -1,0 +1,629 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+section{
+    width: 100vw;
+   
+
+}
+a{
+    color: #fed233;
+}
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 3px 3px 0px #c5c0b0;
+}
+
+.navbarcontent{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbarcontent p{
+    font-size: 18px;
+}
+
+.carticon{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carticon i{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* ============================================== */
+
+.displayimage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayheading{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayheadingmain{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.displayheadingmain h1{
+    font-size: 35px;
+    font-style: italic;
+}
+
+.gymimage{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagefirst{
+    width: 30%;
+    height: 100%;
+}
+.imagearrow{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagearrow i{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fed233;
+
+    
+}
+
+.firstimagelower{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstimagelower img{
+    width: 80%;
+    height: 80%;
+}
+.imagemiddle{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagemiddle img{
+    width: 90%;
+    height: 100%;
+}
+/* ============================================== */
+
+.lifestyle{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+   
+}
+.lifestylecontent{
+    width: 60%;
+    height: 100%;
+}
+.lifestyleheading{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+.lifestyleheading h1{
+    font-size: 35px;
+    font-style: italic;
+}
+.lifestylepara{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+.lifestylepara p{
+    font-size: 20px;
+}
+.lifestylepara button{
+    width: 20%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.yellowbox{
+    width: 20%;
+    height: 80%;
+    margin-left: 4rem;
+    margin-top: 20px;
+    background-color: #fed233;
+   
+}
+.imagebox{
+    width: 45%;
+    height: 55%;
+    position: absolute;
+    bottom: 75px;
+    right: 95px
+
+}
+.imagebox img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ============================================== */
+
+
+.health{
+    height: 100vh;
+
+}
+.healtheadingcontent{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 5rem;
+}
+.healtheadingcontent h1{
+    font-size: 35px;
+    font-style: italic;
+}
+.healthmaincontent{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.healthmainfirst{
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.yellowcontainer{
+    width: 70%;
+    height: 80%;
+    background-color: #fed233;
+    margin: 50px;
+
+}
+.healthimagecontainer{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+
+}
+.healthimagecontainer img{
+    width: 100%;
+    height: 100%;
+}
+.healthmainsecond{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.healthmainsecondlist{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    margin-left: 1.5rem;
+
+}
+.healthmainsecondlist ul li{
+    font-size: 20px;
+}
+.healthmainsecondbutton{
+    width: 100%;
+    height: 20%;
+}
+.healthmainsecondbutton button{
+    width: 28%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* ============================================== */
+
+.choose{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choosefirst{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosefirstheading{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+.choosefirstheading h1{
+    font-size: 35px;
+    font-style: italic;
+}
+
+.choosefirstcontent{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.choosefirstcontentfirstblock{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+.chooseicon{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chooseicon img{
+    width: 40%;
+    height: 60%;
+}
+.chooseiconcontent{
+    width:80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.chooseiconcontent h3{
+    font-size: 20px;
+}
+.choosesecond{
+    width: 50%;
+    height: 100%;
+    position: relative;
+
+}
+
+.chooseyellow{
+    width: 40%;
+    height: 50%;
+    background-color: #fed233;
+    position: absolute;
+    top :50px;
+    right: 70px
+    
+}
+.chooseimagecontainer{
+    width: 80%;
+    height:60%;
+    background-color: red;
+    position: absolute;
+    top: 90px;
+
+}
+.chooseimagecontainer img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ============================================== */
+
+.categories{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.categoriesheading{
+    width: 80%;
+    height: 25%;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.categoriesheading h1{
+    font-size: 35px;
+    font-style: italic;
+}
+.categoriescontent{
+    width: 100%;
+    height: 75%;
+    position: relative;
+
+}
+.categoriesyellow{
+    width: 55%;
+    height: 60%;
+    background-color: #fed233;
+    position: absolute;
+    margin-left: 4rem;
+    top: 7rem;
+   
+
+}
+.categorieslist{
+    width:70%;
+    height: 80%;
+    margin:2rem;
+   
+
+}
+.categorieslist ul li{
+    font-size: 20px;
+}
+
+.categoriesblocks{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+  
+}
+.upperblock{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lowerblock{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 5px -5px #ebebeb;
+
+
+}
+/* ============================================== */
+
+.provide{
+    height: 100vh;
+  
+}
+.provideheading{
+    width: 80%;
+    height: 15%;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.provideheading h1{
+    font-size: 35px;
+    font-style: italic;
+}
+
+.providecards{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards1{
+    width: 35%;
+    height: 85%;
+}
+.providecardimage{
+    width: 100%;
+    height: 50%;
+}
+.providecardimage img{
+    width: 100%;
+    height: 100%;
+}
+.provideardcontent{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* ============================================== */
+.provide2{
+    height: 80vh;
+}
+.providecards2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* ============================================== */
+
+.works{
+    height: 120vh;
+}
+.worksheading{
+    width: 80%;
+    height: 20%;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.worksheading h1{
+    font-size: 35px;
+    font-style: italic;
+}
+
+.workscontent{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.leftwork{
+    width: 50%;
+    height: 100%;
+    background-color: #fed233;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.workblock{
+    width: 70%;
+    height: 20%;
+    background-color: #ffe999 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+
+}
+.workblockcontent{
+    width:90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.worknumber{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left:-15px;
+    top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rigthwork{
+    width: 40%;
+    height: 100%;
+    position: relative;
+
+}
+
+.rigthworkimage{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    position: absolute;
+    left: -40px;
+    bottom: 25px;
+}
+
+.rigthworkimageheading{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rigthworkimageheading h1{
+    font-size: 35px;
+    font-style: italic;
+    padding: 2rem;
+   
+}
+.rigthworkimagecontent{
+    width: 100%;
+    height: 70%;
+}
+.rigthworkimagecontent img{
+    width: 100%;
+    height: 100%;
+}
